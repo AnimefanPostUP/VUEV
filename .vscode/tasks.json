@@ -56,9 +56,9 @@
       "problemMatcher": []
     },
     {
-      "label": "clean, compile, and jar",
+      "label": "buildall",
       "type": "shell",
-      "command": "ant.bat clean && ant.bat compile && ant.bat jar",
+      "command": "ant.bat jar",
       "options": {
         "cwd": "${workspaceFolder}/VUE2/src",
         "env": {
@@ -71,6 +71,7 @@
         "kind": "build",
         "isDefault": true
       },
+      "dependsOn": ["clean", "compile"],
       "problemMatcher": []
     }
   ]

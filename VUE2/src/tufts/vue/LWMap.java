@@ -34,6 +34,8 @@ import java.awt.print.Printable;
 import java.awt.print.PageFormat;
 import java.io.File;
 
+import tufts.vue.ThemeColor;
+
 /**
  * This is the top-level VUE model class.
  *
@@ -135,7 +137,7 @@ public class LWMap extends LWContainer
     public LWMap(String label) {
         initMap();
         setID("0");
-        setFillColor(java.awt.Color.white);
+        setFillColor( ThemeColor.MAIN_BACKGROUND);
         setTextColor(COLOR_TEXT);
         setStrokeColor(COLOR_STROKE);
         setFont(FONT_DEFAULT);
