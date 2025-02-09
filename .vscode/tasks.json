@@ -1,0 +1,77 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "clean",
+      "type": "shell",
+      "command": "ant.bat clean",
+      "options": {
+        "cwd": "${workspaceFolder}/VUE2/src",
+        "env": {
+          "JAVA_HOME": "D:\\SPACE_Coding\\MAINSPACE_BuildSoftware\\Java\\openlogic-openjdk-8u442-b06-windows-x64",
+          "ANT_HOME": "D:\\SPACE_Coding\\MAINSPACE_BuildSoftware\\Java\\apache-ant-1.6.0",
+          "PATH": "${env:PATH};D:\\SPACE_Coding\\MAINSPACE_BuildSoftware\\Java\\apache-ant-1.6.0\\bin;D:\\SPACE_Coding\\MAINSPACE_BuildSoftware\\Java\\openlogic-openjdk-8u442-b06-windows-x64\\bin"
+        }
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "compile",
+      "type": "shell",
+      "command": "ant.bat compile",
+      "options": {
+        "cwd": "${workspaceFolder}/VUE2/src",
+        "env": {
+          "JAVA_HOME": "D:\\SPACE_Coding\\MAINSPACE_BuildSoftware\\Java\\openlogic-openjdk-8u442-b06-windows-x64",
+          "ANT_HOME": "D:\\SPACE_Coding\\MAINSPACE_BuildSoftware\\Java\\apache-ant-1.6.0",
+          "PATH": "${env:PATH};D:\\SPACE_Coding\\MAINSPACE_BuildSoftware\\Java\\apache-ant-1.6.0\\bin;D:\\SPACE_Coding\\MAINSPACE_BuildSoftware\\Java\\openlogic-openjdk-8u442-b06-windows-x64\\bin"
+        }
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "jar",
+      "type": "shell",
+      "command": "ant.bat jar",
+      "options": {
+        "cwd": "${workspaceFolder}/VUE2/src",
+        "env": {
+          "JAVA_HOME": "D:\\SPACE_Coding\\MAINSPACE_BuildSoftware\\Java\\openlogic-openjdk-8u442-b06-windows-x64",
+          "ANT_HOME": "D:\\SPACE_Coding\\MAINSPACE_BuildSoftware\\Java\\apache-ant-1.6.0",
+          "PATH": "${env:PATH};D:\\SPACE_Coding\\MAINSPACE_BuildSoftware\\Java\\apache-ant-1.6.0\\bin;D:\\SPACE_Coding\\MAINSPACE_BuildSoftware\\Java\\openlogic-openjdk-8u442-b06-windows-x64\\bin"
+        }
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "clean, compile, and jar",
+      "type": "shell",
+      "command": "ant.bat clean && ant.bat compile && ant.bat jar",
+      "options": {
+        "cwd": "${workspaceFolder}/VUE2/src",
+        "env": {
+          "JAVA_HOME": "D:\\SPACE_Coding\\MAINSPACE_BuildSoftware\\Java\\openlogic-openjdk-8u442-b06-windows-x64",
+          "ANT_HOME": "D:\\SPACE_Coding\\MAINSPACE_BuildSoftware\\Java\\apache-ant-1.6.0",
+          "PATH": "${env:PATH};D:\\SPACE_Coding\\MAINSPACE_BuildSoftware\\Java\\apache-ant-1.6.0\\bin;D:\\SPACE_Coding\\MAINSPACE_BuildSoftware\\Java\\openlogic-openjdk-8u442-b06-windows-x64\\bin"
+        }
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
